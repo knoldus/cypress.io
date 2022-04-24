@@ -9,7 +9,7 @@ Run `npm install cypress`.This will create node_modules folder that contain all 
 
 2. Clone the repository
 
-https://github.com/knoldus/cypress.io
+https://github.com/knoldus/cypress.io/tree/feature/Screenshots_Videos
 
 3. To run the all tests:
 
