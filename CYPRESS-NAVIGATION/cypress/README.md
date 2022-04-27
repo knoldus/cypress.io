@@ -1,7 +1,6 @@
 # Navigate back and forward in the browser
 
-This template consist that how to navigate backward and forward in the broswer in cypress. 
-for that we use 'go' command to navigate.
+This template consist that how to navigate backward and forward in the broswer in cypress.Cypress provide a feature to navigate backward and forward by using "cy.go" command.
 
 ## ## Steps for execution
 
@@ -12,9 +11,15 @@ Run `npm install cypress`.This will create node_modules folder that contain all 
 
 https://github.com/knoldus/cypress.io/tree/feature/Navigate_backward_forward
 
-3. To run the test. run this command and then select navigate.js
+3. To run the all tests:
 
-'npx cypress open'
+`./node_modules/.bin/cypress run "cypress/integration/TechHub`
+This will run all the test cases in headless mode.
+
+4. To run a particular tests:
+
+`npx cypress open`
+This command will open cypress dashboard where the user can select the particular file to run.
 
 ## Technologies used
 
