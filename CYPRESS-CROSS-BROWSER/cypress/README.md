@@ -1,4 +1,4 @@
-# Navigate back and forward in the browser
+# Cross-browser Testing with Cypress
 
 This template consist that how to navigate backward and forward in the broswer in cypress.Cypress provide a feature to navigate backward and forward by using "cy.go" command.
 
