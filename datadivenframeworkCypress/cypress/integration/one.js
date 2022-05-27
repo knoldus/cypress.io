@@ -7,7 +7,7 @@ describe('Test', function () {
        })
     })
     // test case
-    it('Test Case1', function (){
+    it('Login into the application', function (){
        // launch URL
        cy.visit("https://www.facebook.com//")
        //data driven from fixture
