@@ -1,5 +1,5 @@
 # BDD Automation Framework with Cypress
-This template consist of how to integrate BDD(Behaviour-driven developmengt) Automation Framwork with cypress. Behavior Driven testing is an extension of TDD. Like in TDD in BDD also we write tests first and the add application code. In this template, I have defined a feature file where steps are defined.
+This template consist of how to integrate BDD(Behavior-driven development) Automation Framework with cypress. Behavior Driven testing is an extension of TDD. Like in TDD in BDD also we write tests first and the add application code. In this template, I have defined a feature file where steps are defined.
 
 # Feature File
 Feature File is the entry point to the Cucumber tests of your framework. It is a file where you will write your tests in Descriptive Gherkin language (Like English).
