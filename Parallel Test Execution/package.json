@@ -1,0 +1,22 @@
+{
+  "name": "cypress-parllel",
+  "version": "1.0.0",
+  "description": "This is the repository created for the demo purpose",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gsk0210/cypress-parllel.git"
+  },
+  "author": "gargi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gsk0210/cypress-parllel/issues"
+  },
+  "homepage": "https://github.com/gsk0210/cypress-parllel#readme",
+  "devDependencies": {
+    "cypress": "^8.5.0"
+  }
+}

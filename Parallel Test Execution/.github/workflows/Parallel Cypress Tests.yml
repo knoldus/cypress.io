@@ -1,0 +1,29 @@
+name: Parallel Cypress Tests
+
+on: [push]
+
+jobs:
+  test:
+    name: Cypress run
+    runs-on: ubuntu-20.04
+    strategy:
+      # when one test fails, DO NOT cancel the other as it will leave Cypress Dashboard hanging      
+      fail-fast: false
+      matrix:
+        # run 2 copies of the current job in parallel
+        containers: [1, 2]
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      
+      - name: Cypress run
+        uses: cypress-io/github-action@v2
+        with:
+          record: true
+          parallel: true
+          group: 'Actions example'
+        env:
+          # Fetch the Dashboard record key and pass it as an environment variable
+          CYPRESS_RECORD_KEY: ${{ secrets.RECORD_KEY }}
+          # Pass the GitHub token          
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
