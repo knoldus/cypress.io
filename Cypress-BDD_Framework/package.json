@@ -1,0 +1,20 @@
+{
+  "name": "cucumber_cypress",
+  "version": "1.0.0",
+  "description": "Integrate cucumber with cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Himanshu Gupta",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^9.0.0"
+  },
+  "devDependencies": {
+    "cypress-cucumber-preprocessor": "^4.3.1"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  }
+}
